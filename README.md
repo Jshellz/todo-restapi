@@ -11,4 +11,4 @@
 
 С unit тестами для каждой функции(кроме main)
 
-![alt text](https://github.com/Jshellz/todo-restapi/test_work/photo)
+![alt text](https://github.com/Jshellz/todo-restapi/tree/main/photo)
