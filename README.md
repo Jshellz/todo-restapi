@@ -9,6 +9,7 @@
 6. go.mod & go.sum -> установочные зависемости
 7. main.go -> отправная точка для запуска проекта на go
 
-С unit тестами для каждой функции(кроме main)
+## Для запуска сделать контейнер из образа postgres и через команду go run main.go запустить сервер с пробросом к бд 
+
 
 ![photo](https://github.com/Jshellz/todo-restapi/tree/main/photo)
