@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: db_test_task
+    environment:
+      POSTGRES_USER: local
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: tasks_db
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data/pgdata
+    restart: unless-stopped
+    tty: true
+
+volumes:
+  pgdata:
+    driver: local
